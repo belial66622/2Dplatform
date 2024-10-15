@@ -6,21 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Sekolah/Scenes/Main Menu.unity
+    guid: 0821a5069349828499bb89bd23e705ad
   - enabled: 1
-    path: Assets/Scenes/Level 1.unity
-    guid: a11b0c2e7f80b4c4f915bc7f9e5a2cd5
-  - enabled: 1
-    path: Assets/Scenes/Level 2.unity
-    guid: 892bf67756b3ef941ac443fafac06ab2
-  - enabled: 1
-    path: Assets/Scenes/Level 3.unity
-    guid: 8d28c2735dd52b940864061bbf346065
-  - enabled: 1
-    path: Assets/Scenes/Level 4.unity
-    guid: 71573ec5877669f4db845c12ed6dbb8a
-  - enabled: 1
-    path: Assets/Scenes/Level 5.unity
-    guid: 5111e0b997fcc2a4f8cb0d0a890e36f2
+    path: Assets/Sekolah/Scenes/Opening.unity
+    guid: 18b66137b93bf814280cee8b36aeaedb
   m_configObjects: {}

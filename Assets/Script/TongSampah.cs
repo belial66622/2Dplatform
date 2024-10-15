@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class TongSampah : MonoBehaviour
 {
     public int SampahDiLevel;
+
+    public UnityEvent OnFull;
 
     [SerializeField]
     TextMeshProUGUI text;
@@ -27,6 +30,10 @@ public class TongSampah : MonoBehaviour
         sampahTerkumpul++;
 
         text.SetText($"{sampahTerkumpul}/{SampahDiLevel}");
+        if(sampahTerkumpul == SampahDiLevel) 
+        {
+            OnFull?.Invoke();
+        }
     }
 
     public void PindahLevel()
