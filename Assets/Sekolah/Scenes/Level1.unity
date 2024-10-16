@@ -273,7 +273,7 @@ PrefabInstance:
       objectReference: {fileID: 1315729362, guid: ef1437e34b5014542a453714d7f591f6, type: 3}
     - target: {fileID: 5091900601429960993, guid: 85fb851c6b18cdd4e8d84166dee89dd0, type: 3}
       propertyPath: OnAndroid
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5220824759941325058, guid: 85fb851c6b18cdd4e8d84166dee89dd0, type: 3}
       propertyPath: m_Sprite
@@ -2136,7 +2136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 668aafada58542e4492aea0b5d50f42c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SampahDiLevel: 1
+  SampahDiLevel: 4
   OnFull:
     m_PersistentCalls:
       m_Calls:
