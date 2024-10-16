@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Sekolah/Scenes/Level1.unity
     guid: 4432bef8ff50cc54bab1b85eaa9630bf
+  - enabled: 1
+    path: Assets/Sekolah/Scenes/Level2.unity
+    guid: d9682074fb68822418a8b18de0c777f2
+  - enabled: 1
+    path: Assets/Sekolah/Scenes/Level3.unity
+    guid: 7dda0cc424017fd4691d552f4e5253f8
   m_configObjects: {}

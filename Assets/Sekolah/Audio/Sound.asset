@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961826c140066ab42a2d49068cacbac3, type: 3}
+  m_Name: Sound
+  m_EditorClassIdentifier: 
+  _mainMenuBGM: 
+  _sounds:
+  - _name: Dead
+    _audioClip: {fileID: 8300000, guid: 778b1f2398783484d9cbdf6feb159275, type: 3}
+    _isBGM: 0
+    _audioMixerGroup: {fileID: 24300002, guid: 957f4f768a2b9424f8b30108a3dbbb1a, type: 2}
+  - _name: Picked
+    _audioClip: {fileID: 8300000, guid: 942970582181c2a42804818ed42248f4, type: 3}
+    _isBGM: 0
+    _audioMixerGroup: {fileID: 24300002, guid: 957f4f768a2b9424f8b30108a3dbbb1a, type: 2}
+  - _name: Jump
+    _audioClip: {fileID: 8300000, guid: fbfebd711ba85d546bb6cfa5765b04a3, type: 3}
+    _isBGM: 0
+    _audioMixerGroup: {fileID: 24300002, guid: 957f4f768a2b9424f8b30108a3dbbb1a, type: 2}

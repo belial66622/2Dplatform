@@ -1,3 +1,4 @@
+using Audio;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,6 +20,7 @@ public class Sampah : MonoBehaviour
     {
         if (collision.TryGetComponent<Detectdamage>(out Detectdamage detect))
         {
+            AudioManager.Instance.PlaySFX("Picked");
             Picked();
         }
     }

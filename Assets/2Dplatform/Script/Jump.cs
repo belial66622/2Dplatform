@@ -1,3 +1,4 @@
+using Audio;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -37,6 +38,7 @@ public class Jump : MonoBehaviour
     {
         if (Checkground())
         {
+            AudioManager.Instance.PlaySFX("Jump");
             rb.velocity = Vector3.up* jumpForce ;
         }
     }

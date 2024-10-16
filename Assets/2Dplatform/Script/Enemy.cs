@@ -1,3 +1,4 @@
+using Audio;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -28,6 +29,7 @@ public class Enemy : MonoBehaviour
     public void Death()
     {
 
+        AudioManager.Instance.PlaySFX("Dead");
         colliders.enabled= false;
         alive = !alive;
         StartCoroutine(death(2));

@@ -39,7 +39,7 @@ public class Control : MonoBehaviour
                     direction = 1;
                 }
 
-                if (Input.GetKey(KeyCode.Space))
+                if (Input.GetKeyDown(KeyCode.Space))
                 {
                     jump.Jumping();
                 }
