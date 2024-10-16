@@ -12,20 +12,20 @@ public class TongSampah : MonoBehaviour
     public UnityEvent OnFull;
 
     [SerializeField]
-    TextMeshProUGUI text;
+    protected TextMeshProUGUI text;
 
-    public int sampahTerkumpul { get; private set; } = 0;
+    public int sampahTerkumpul { get; protected set; } = 0;
     [SerializeField]
-    int levelDituju;
+    protected int levelDituju;
 
 
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
         text.SetText($"{sampahTerkumpul}/{SampahDiLevel}");
     }
 
-    public void SampahDiambil()
+    public virtual void SampahDiambil()
     {
         sampahTerkumpul++;
 
